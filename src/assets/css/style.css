@@ -1,0 +1,19 @@
+/* for datatable length start */
+
+div.dataTables_wrapper div.dataTables_length label {
+    font-weight: normal;
+    white-space: nowrap;
+    margin-left: 30vw;
+    margin-top: -2vw;
+    position: absolute;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+    font-weight: normal;
+    white-space: nowrap;
+    margin-left: -18vw;
+    margin-top: -2vw!important;
+    position: absolute;
+}
+
+/* for datatable length end */
