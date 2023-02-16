@@ -180,7 +180,7 @@ export default {
                 });
         },
         delete(id) {
-            // alert(id);
+
             axios.delete(this.$store.state.url + 'delete_seller/' + id)
                 .then(response => response.data)
                 .then(data => {

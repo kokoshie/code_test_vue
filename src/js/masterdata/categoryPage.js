@@ -175,7 +175,6 @@ export default {
                 });
         },
         delete(id) {
-            alert(id);
             axios.delete(this.$store.state.url + 'delete_category/' + id)
                 .then(response => response.data)
                 .then(data => {
